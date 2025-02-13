@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazonrep</title>
+    <link rel="stylesheet" href="amazon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <!--logo-->
+        <div class="navlogo">
+          <img
+            id="imggg"
+            src="https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png-1.webp"
+            alt=""
+          />
+        </div>
+        <!--address-->
+        <div class="address border">
+          <p class="add1">Delivery to</p>
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add2">Delhi</p>
+          </div>
+        </div>
+
+        <!-- searchbar -->
+        <div class="search">
+          <select class="select-all">
+            <option>All</option>
+          </select>
+          <input type="text" placeholder="Search Amazon.in" class="textbox" />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+        <!-- language -->
+        <div class="language">
+          <select class="select-all1">
+            <option>EN</option>
+            <option>IM</option>
+            <option>UN</option>
+          </select>
+        </div>
+        <!--signin-->
+        <div class="address border">
+          <p class="add1">Hello,sign in</p>
+          <div class="icon">
+            <p class="add2">Account & Lists</p>
+          </div>
+        </div>
+        <!-- returns and orders -->
+        <div class="address border">
+          <p class="add1">Returns</p>
+          <div class="icon">
+            <p class="add2">& Orders</p>
+          </div>
+        </div>
+        <!-- Cart -->
+        <div class="address border cart">
+          <div class="icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="add2">Cart</p>
+          </div>
+        </div>
+      </div>
+      <!-- PANEL -->
+      <!-- PANEL -->
+      <div class="panel">
+        <div class="panel-all">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+        <div class="panel-options">
+          <a id="option">Fresh</a>
+          <a id="option">MX Player</a>
+          <a id="option">Sell</a>
+          <a id="option">Best Sellers</a>
+          <a id="option">Mobiles</a>
+          <a id="option">Today's Deals</a>
+          <a id="option">Electronics</a>
+          <a id="option">Customer Service</a>
+          <a id="option">Amazon Pay</a>
+          <a id="option">Prime</a>
+          <a id="option">Home & Kitchen</a>
+          <a id="option">New Releases</a>
+          <a id="option">Fashion</a>
+        </div>
+      </div>
+    </header>
+    <!-- body part -->
+    <!-- carousel -->
+    <div class="carousel">
+      <div class="carousel-images">
+        <img
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img25/Media/D201600756_Vday25_GW_PC_Hero_1_1500x600._CB550687980_.jpg"
+          alt="Image 1"
+          class="cimg"
+        />
+        <img
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Consumables/X-GL/Feb5/PC_Hero_1_3000._CB582457311_.jpg"
+          alt="Image 2"
+          class="cimg"
+        />
+        <img
+          src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG24/Smart_Watches/MED_MAY/Tall_Hero_1500X600_BAU_NewLaunches._CB554931622_.jpg"
+          alt="Image 3"
+          class="cimg"
+        />
+      </div>
+      <button class="prev" onclick="Prev()">
+        <i class="fa-solid fa-less-than" id="btn1"></i>
+      </button>
+      <button class="next" onclick="Next()">
+        <i class="fa-solid fa-greater-than" id="btn2"></i>
+      </button>
+    </div>
+
+    <!-- --------------CARDS------------ -->
+
+    <div class="cards">
+      <!-- box1 -->
+      <div class="box">
+        <div id="head">Continue shopping deals</div>
+        <br />
+        <div class="images">
+          <img
+            src="https://m.media-amazon.com/images/I/51GcWHdhi6L._AC_SY290_.jpg"
+            alt=""
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/61ZU07Hz2AL._AC_SY290_.jpg"
+            alt=""
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/81iPfrLBxlL._AC_SY290_.jpg"
+            alt=""
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/61wIQwJk7pL._AC_SY290_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+      <!-- box2 -->
+      <div class="box">
+        <div id="head">Appliances for your home |<br> Up to 55% off</div>
+        <br />
+        <div class="images1">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+        <!-- box3 -->
+      <div class="box">
+        <div id="head">Revamp your home |<br>in style</div>
+        <br />
+        <div class="images1">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_furnishings_2._SY232_CB555629502_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_decor_1._SY232_CB555629502_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_storage_1._SY232_CB555629502_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/2x/372x232_Home_lighting_2_-_Copy._SY232_CB555629502_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+        <!-- box4 -->
+      <div class="box">
+        <div id="head">Most-Loved products</div>
+        <br />
+        <div class="images">
+          <img
+            src="https://m.media-amazon.com/images/I/71dL5YDuTlL._AC_SY290_.jpg"
+            alt=""
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/817i6QlGbTL._AC_SY290_.jpg"
+            alt=""
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/91orWS61ujL._AC_SY290_.jpg"
+            alt=""
+          />
+          <img
+            src="https://m.media-amazon.com/images/I/61yRDBCVSGL._AC_SY290_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+        <!-- box5 -->
+      <div class="box">
+        <div id="head">Starting ₹149 |<br> Headphones</div>
+        <br />
+        <div class="images1">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_boAt._SY232_CB553870684_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Boult._SY232_CB553870684_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/GW/QC/PC/PC_QuadCard_Noise._SY232_CB553870684_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/june/CE/MSO/PD3/PC_QuadCard_Zeb_1._SY232_CB570220221_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+        <!-- box6 -->
+      <div class="box">
+        <div id="head">Automotive essentials |<br> Up to 60% off</div>
+        <br />
+        <div class="images1">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare2x._SY232_CB410830552_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare2x._SY232_CB410830552_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_372x232._SY232_CB405083904_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum2x._SY232_CB410830555_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+        <!-- box7 -->
+      <div class="box">
+        <div id="head">Starting ₹199 |<br> Amazon Brands & more</div>
+        <br />
+        <div class="images1">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_2._SY232_CB567468220_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_3._SY232_CB567468220_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_4._SY232_CB567468220_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/March/Bikram/PC_QC_HOME_SIZE_372_1._SY232_CB567468220_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+        <!-- box8 -->
+      <div class="box">
+        <div id="head">Up to 60% off |<br> Styles for women</div>
+        <br />
+        <div class="images1">
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-372-232._SY232_CB636048992_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-372-232._SY232_CB636048992_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-372-232._SY232_CB636048992_.jpg"
+            alt=""
+          />
+          <img
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-372-232._SY232_CB636048992_.jpg"
+            alt=""
+          />
+        </div>
+        <br /><br />
+        <div class="link"><a>See all deals</a></div>
+      </div>
+    </div>
+    <footer>
+      <div class="prefoot">Back to top</div>
+      <div class="postfoot">
+        <!-- block1 -->
+        <div class="block">
+          <div class="bada">Get to know<br>Us</div><br>
+          <div class="chota">
+            <a>About Amazon</a><br><br>
+            <a>Careers</a><br><br>
+            <a>Press Releases</a><br><br>
+            <a>Amazon Science</a>
+          </div>
+        </div>
+        <!-- block2 -->
+        <div class="block">
+          <div class="bada">Contact with<br>Us</div><br>
+          <div class="chota">
+            <a>Facebook</a><br><br>
+            <a>Twitter</a><br><br>
+            <a>Instagram</a>
+          </div>
+        </div>
+        <!-- block3 -->
+        <div class="block">
+          <div class="bada">Make Money with Us</div><br>
+          <div class="chota">
+            <a>Sell on Amazon</a><br><br>
+            <a>Sell under Amazon Accelerator</a><br><br>
+            <a>Protect and Build Your Brand</a><br><br>
+            <a>Amazon Global Selling</a><br><br>
+            <a>Supply to Amazon</a><br><br>
+            <a>Become an Affiliate</a><br><br>
+            <a>Fulfilment by Amazon</a><br><br>
+            <a>Advertise Your Products</a><br><br>
+            <a>Amazon Pay on Merchants</a>
+          </div>
+        </div>
+        <!-- block4 -->
+        <div class="block">
+          <div class="bada">Get to know<br>Us</div><br>
+          <div class="chota">
+            <a>About Amazon</a><br><br>
+            <a>Careers</a><br><br>
+            <a>Press Releases</a><br><br>
+            <a>Amazon Science</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="newdiv">
+        <div class="lastfoot">
+          <div><img src="https://www.hatchwise.com/wp-content/uploads/2022/05/amazon-logo-1024x683.png-1.webp" alt=""></div>
+          <div class="btns">
+          <div class="btn1">English</div>
+          <div class="btn2">India</div>
+        </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
