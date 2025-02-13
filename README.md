@@ -1,4 +1,4 @@
-# Amazon Homepage Clone
+# Amazon-clone
 
 This project is a clone of the Amazon homepage built using **HTML, CSS, and JavaScript**. It replicates the layout and design of Amazon's main page with responsive styling and interactive features.
 
@@ -21,18 +21,18 @@ This project is a clone of the Amazon homepage built using **HTML, CSS, and Java
 ## Installation & Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/amazon-homepage-clone.git
+   git clone https://github.com/theg0607/amazon-clone.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd amazon-homepage-clone
+   cd amazon-clone
    ```
-3. Open `index.html` in your browser.
+3. Open `amazon.html` in your browser.
 
 ## Screenshots
 <img width="959" alt="homepage" src="https://github.com/user-attachments/assets/c0e790c5-7af7-4963-95f8-f7ffa36770ba" />
 
-
+<img width="959" alt="homepage2" src="https://github.com/user-attachments/assets/a18dbfa1-1659-4ec5-b122-6cc69f41e41b" />
 
 ## Future Improvements
 - Add more interactive features such as a login system.
@@ -40,8 +40,8 @@ This project is a clone of the Amazon homepage built using **HTML, CSS, and Java
 - Improve responsiveness and animations.
 
 ## Author
-**Your Name**  
-GitHub: [your-username](https://github.com/your-username)
+**Akash Rajput**  
+GitHub: [theg0607](https://github.com/theg0607)
 
 ## License
 This project is for educational purposes and does not intend to violate any copyright laws.
